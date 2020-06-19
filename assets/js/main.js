@@ -189,6 +189,14 @@
     items: 1
   });
 
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 2
+  });
+
+
   // Init AOS
   function aos_init() {
     AOS.init({
